@@ -1,0 +1,55 @@
+[02-Aug-2024 21:01:49 UTC] PHP Warning:  require_once(/home4/app3ecounrcedu/public_html/lib/ajax/../../config.php): Failed to open stream: No such file or directory in /home4/app3ecounrcedu/public_html/lib/ajax/service.php on line 41
+[02-Aug-2024 21:01:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/app3ecounrcedu/public_html/lib/ajax/../../config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/app3ecounrcedu/public_html/lib/ajax/service.php:41
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/ajax/service.php on line 41
+[08-Sep-2024 01:52:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[08-Sep-2024 01:52:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[08-Sep-2024 23:41:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[08-Sep-2024 23:49:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[08-Sep-2024 23:53:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[09-Sep-2024 14:10:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[09-Sep-2024 14:10:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[19-Sep-2024 21:03:54 America/Argentina/Cordoba] Cannot find session record 309c5540109a42543eabad050c7c803e for user 1, creating new session.

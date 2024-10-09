@@ -1,0 +1,40 @@
+[21-Aug-2024 14:06:49 UTC] PHP Fatal error:  Uncaught Error: Class "core\task\adhoc_task" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/initiate_data_request_task.php:36
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/initiate_data_request_task.php on line 36
+[21-Aug-2024 14:07:03 UTC] PHP Fatal error:  Uncaught Error: Class "core\task\adhoc_task" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/process_data_request_task.php:48
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/process_data_request_task.php on line 48
+[21-Aug-2024 14:07:49 UTC] PHP Fatal error:  Uncaught Error: Class "core\task\adhoc_task" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/initiate_data_request_task.php:36
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/initiate_data_request_task.php on line 36
+[21-Aug-2024 14:08:10 UTC] PHP Fatal error:  Uncaught Error: Class "core\task\adhoc_task" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/process_data_request_task.php:48
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/process_data_request_task.php on line 48
+[21-Aug-2024 14:08:18 UTC] PHP Fatal error:  Uncaught Error: Class "core\task\adhoc_task" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/initiate_data_request_task.php:36
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/initiate_data_request_task.php on line 36
+[21-Aug-2024 14:08:44 UTC] PHP Fatal error:  Uncaught Error: Class "core\task\adhoc_task" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/initiate_data_request_task.php:36
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/initiate_data_request_task.php on line 36
+[21-Aug-2024 14:08:59 UTC] PHP Fatal error:  Uncaught Error: Class "core\task\adhoc_task" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/process_data_request_task.php:48
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/process_data_request_task.php on line 48
+[21-Aug-2024 14:09:00 UTC] PHP Fatal error:  Uncaught Error: Class "core\task\adhoc_task" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/initiate_data_request_task.php:36
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/initiate_data_request_task.php on line 36
+[21-Aug-2024 14:09:29 UTC] PHP Fatal error:  Uncaught Error: Class "core\task\adhoc_task" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/process_data_request_task.php:48
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/process_data_request_task.php on line 48
+[21-Aug-2024 14:09:59 UTC] PHP Fatal error:  Uncaught Error: Class "core\task\adhoc_task" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/process_data_request_task.php:48
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/task/process_data_request_task.php on line 48

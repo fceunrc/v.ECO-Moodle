@@ -1,0 +1,48 @@
+[21-Aug-2024 13:14:26 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/contextlist_context.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/contextlist_context.php on line 29
+[21-Aug-2024 13:15:46 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/request_contextlist.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/request_contextlist.php on line 29
+[21-Aug-2024 13:15:53 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/dataprivacy_contextlist.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/dataprivacy_contextlist.php on line 29
+[21-Aug-2024 13:15:55 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/request_contextlist.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/request_contextlist.php on line 29
+[21-Aug-2024 13:16:02 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/request_contextlist.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/request_contextlist.php on line 29
+[21-Aug-2024 13:16:09 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/request_contextlist.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/request_contextlist.php on line 29
+[21-Aug-2024 13:16:30 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/contextlist_context.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/contextlist_context.php on line 29
+[21-Aug-2024 13:16:54 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/dataprivacy_contextlist.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/dataprivacy_contextlist.php on line 29
+[21-Aug-2024 13:17:09 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/contextlist_context.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/contextlist_context.php on line 29
+[21-Aug-2024 13:17:30 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/dataprivacy_contextlist.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/dataprivacy_contextlist.php on line 29
+[21-Aug-2024 13:17:32 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/contextlist_context.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/contextlist_context.php on line 29
+[21-Aug-2024 13:17:39 UTC] PHP Fatal error:  Uncaught Error: Class "core\persistent" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/dataprivacy_contextlist.php:29
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/dataprivacy_contextlist.php on line 29

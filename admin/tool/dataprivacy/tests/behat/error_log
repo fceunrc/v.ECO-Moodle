@@ -1,0 +1,24 @@
+[21-Aug-2024 14:07:45 UTC] PHP Warning:  Class "Facebook\WebDriver\WebDriverKeys" not found in /home4/app3ecounrcedu/public_html/lib/behat/classes/behat_session_trait.php on line 44
+[21-Aug-2024 14:07:45 UTC] PHP Fatal error:  Uncaught Error: Class "Behat\MinkExtension\Context\RawMinkContext" not found in /home4/app3ecounrcedu/public_html/lib/behat/behat_base.php:52
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/behat/behat_tool_dataprivacy.php(26): require_once()
+#1 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/behat/behat_base.php on line 52
+[21-Aug-2024 14:09:02 UTC] PHP Warning:  Class "Facebook\WebDriver\WebDriverKeys" not found in /home4/app3ecounrcedu/public_html/lib/behat/classes/behat_session_trait.php on line 44
+[21-Aug-2024 14:09:02 UTC] PHP Fatal error:  Uncaught Error: Class "Behat\MinkExtension\Context\RawMinkContext" not found in /home4/app3ecounrcedu/public_html/lib/behat/behat_base.php:52
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/behat/behat_tool_dataprivacy.php(26): require_once()
+#1 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/behat/behat_base.php on line 52
+[21-Aug-2024 14:09:18 UTC] PHP Warning:  Class "Facebook\WebDriver\WebDriverKeys" not found in /home4/app3ecounrcedu/public_html/lib/behat/classes/behat_session_trait.php on line 44
+[21-Aug-2024 14:09:18 UTC] PHP Fatal error:  Uncaught Error: Class "Behat\MinkExtension\Context\RawMinkContext" not found in /home4/app3ecounrcedu/public_html/lib/behat/behat_base.php:52
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/behat/behat_tool_dataprivacy.php(26): require_once()
+#1 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/behat/behat_base.php on line 52
+[21-Aug-2024 14:09:26 UTC] PHP Warning:  Class "Facebook\WebDriver\WebDriverKeys" not found in /home4/app3ecounrcedu/public_html/lib/behat/classes/behat_session_trait.php on line 44
+[21-Aug-2024 14:09:26 UTC] PHP Fatal error:  Uncaught Error: Class "Behat\MinkExtension\Context\RawMinkContext" not found in /home4/app3ecounrcedu/public_html/lib/behat/behat_base.php:52
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/behat/behat_tool_dataprivacy.php(26): require_once()
+#1 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/behat/behat_base.php on line 52

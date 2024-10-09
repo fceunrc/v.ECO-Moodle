@@ -1,0 +1,80 @@
+[21-Aug-2024 13:12:10 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/data_registry_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/data_registry_test.php on line 26
+[21-Aug-2024 13:12:13 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/user_deleted_observer_test.php:28
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/user_deleted_observer_test.php on line 28
+[21-Aug-2024 13:12:15 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/expired_contexts_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/expired_contexts_test.php on line 26
+[21-Aug-2024 13:13:39 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/filtered_userlist_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/filtered_userlist_test.php on line 26
+[21-Aug-2024 13:13:50 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/api_test.php:34
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/api_test.php on line 34
+[21-Aug-2024 13:13:56 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/data_registry_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/data_registry_test.php on line 26
+[21-Aug-2024 13:13:59 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/metadata_registry_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/metadata_registry_test.php on line 26
+[21-Aug-2024 13:14:01 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/user_deleted_observer_test.php:28
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/user_deleted_observer_test.php on line 28
+[21-Aug-2024 13:15:09 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/filtered_userlist_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/filtered_userlist_test.php on line 26
+[21-Aug-2024 13:15:18 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/data_registry_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/data_registry_test.php on line 26
+[21-Aug-2024 13:15:29 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/metadata_registry_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/metadata_registry_test.php on line 26
+[21-Aug-2024 13:15:32 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/user_deleted_observer_test.php:28
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/user_deleted_observer_test.php on line 28
+[21-Aug-2024 13:15:38 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/data_registry_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/data_registry_test.php on line 26
+[21-Aug-2024 13:15:42 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/api_test.php:34
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/api_test.php on line 34
+[21-Aug-2024 13:16:11 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/filtered_userlist_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/filtered_userlist_test.php on line 26
+[21-Aug-2024 13:16:13 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/expired_contexts_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/expired_contexts_test.php on line 26
+[21-Aug-2024 13:16:43 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/api_test.php:34
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/api_test.php on line 34
+[21-Aug-2024 13:17:26 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/metadata_registry_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/metadata_registry_test.php on line 26
+[21-Aug-2024 13:17:28 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/user_deleted_observer_test.php:28
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/user_deleted_observer_test.php on line 28
+[21-Aug-2024 13:17:37 UTC] PHP Fatal error:  Uncaught Error: Class "advanced_testcase" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/metadata_registry_test.php:26
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/tests/metadata_registry_test.php on line 26

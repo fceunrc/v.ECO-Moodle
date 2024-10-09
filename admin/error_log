@@ -1,0 +1,190 @@
+[02-Aug-2024 18:08:41 America/Argentina/Cordoba] Default exception handler: DDL sql execution error Debug: Table 'mdl_qtype_ordering_options' already exists
+CREATE TABLE mdl_qtype_ordering_options (
+    id BIGINT(10) NOT NULL auto_increment,
+    questionid BIGINT(10) NOT NULL DEFAULT 0,
+    layouttype TINYINT(2) NOT NULL DEFAULT 0,
+    selecttype TINYINT(2) NOT NULL DEFAULT 0,
+    selectcount SMALLINT(4) NOT NULL DEFAULT 2,
+    gradingtype TINYINT(2) NOT NULL DEFAULT 0,
+    showgrading TINYINT(2) NOT NULL DEFAULT 0,
+    numberingstyle VARCHAR(10) COLLATE utf8mb4_general_ci NOT NULL DEFAULT 'none',
+    correctfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    correctfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    incorrectfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    incorrectfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    partiallycorrectfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    partiallycorrectfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    shownumcorrect TINYINT(2) NOT NULL DEFAULT 0,
+CONSTRAINT  PRIMARY KEY (id)
+, UNIQUE KEY mdl_qtypordeopti_que2_uix (questionid)
+)
+ ENGINE = InnoDB
+ DEFAULT COLLATE = utf8mb4_general_ci ROW_FORMAT=Compressed
+ COMMENT='Options for ordering questions'
+Error code: ddlexecuteerror
+* line 500 of /lib/dml/moodle_database.php: ddl_change_structure_exception thrown
+* line 293 of /lib/dml/moodle_read_slave_trait.php: call to moodle_database->query_end()
+* line 1223 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->query_end()
+* line 77 of /lib/ddl/database_manager.php: call to mysqli_native_moodle_database->change_database_structure()
+* line 427 of /lib/ddl/database_manager.php: call to database_manager->execute_sql_arr()
+* line 372 of /lib/ddl/database_manager.php: call to database_manager->install_from_xmldb_structure()
+* line 723 of /lib/upgradelib.php: call to database_manager->install_from_xmldb_file()
+* line 1931 of /lib/upgradelib.php: call to upgrade_plugins()
+* line 726 of /admin/index.php: call to upgrade_noncore()
+
+[02-Aug-2024 18:10:22 America/Argentina/Cordoba] Default exception handler: DDL sql execution error Debug: Table 'mdl_qtype_ordering_options' already exists
+CREATE TABLE mdl_qtype_ordering_options (
+    id BIGINT(10) NOT NULL auto_increment,
+    questionid BIGINT(10) NOT NULL DEFAULT 0,
+    layouttype TINYINT(2) NOT NULL DEFAULT 0,
+    selecttype TINYINT(2) NOT NULL DEFAULT 0,
+    selectcount SMALLINT(4) NOT NULL DEFAULT 2,
+    gradingtype TINYINT(2) NOT NULL DEFAULT 0,
+    showgrading TINYINT(2) NOT NULL DEFAULT 0,
+    numberingstyle VARCHAR(10) COLLATE utf8mb4_general_ci NOT NULL DEFAULT 'none',
+    correctfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    correctfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    incorrectfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    incorrectfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    partiallycorrectfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    partiallycorrectfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    shownumcorrect TINYINT(2) NOT NULL DEFAULT 0,
+CONSTRAINT  PRIMARY KEY (id)
+, UNIQUE KEY mdl_qtypordeopti_que2_uix (questionid)
+)
+ ENGINE = InnoDB
+ DEFAULT COLLATE = utf8mb4_general_ci ROW_FORMAT=Compressed
+ COMMENT='Options for ordering questions'
+Error code: ddlexecuteerror
+* line 500 of /lib/dml/moodle_database.php: ddl_change_structure_exception thrown
+* line 293 of /lib/dml/moodle_read_slave_trait.php: call to moodle_database->query_end()
+* line 1223 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->query_end()
+* line 77 of /lib/ddl/database_manager.php: call to mysqli_native_moodle_database->change_database_structure()
+* line 427 of /lib/ddl/database_manager.php: call to database_manager->execute_sql_arr()
+* line 372 of /lib/ddl/database_manager.php: call to database_manager->install_from_xmldb_structure()
+* line 723 of /lib/upgradelib.php: call to database_manager->install_from_xmldb_file()
+* line 1931 of /lib/upgradelib.php: call to upgrade_plugins()
+* line 726 of /admin/index.php: call to upgrade_noncore()
+
+[02-Aug-2024 18:11:03 America/Argentina/Cordoba] Default exception handler: DDL sql execution error Debug: Table 'mdl_qtype_ordering_options' already exists
+CREATE TABLE mdl_qtype_ordering_options (
+    id BIGINT(10) NOT NULL auto_increment,
+    questionid BIGINT(10) NOT NULL DEFAULT 0,
+    layouttype TINYINT(2) NOT NULL DEFAULT 0,
+    selecttype TINYINT(2) NOT NULL DEFAULT 0,
+    selectcount SMALLINT(4) NOT NULL DEFAULT 2,
+    gradingtype TINYINT(2) NOT NULL DEFAULT 0,
+    showgrading TINYINT(2) NOT NULL DEFAULT 0,
+    numberingstyle VARCHAR(10) COLLATE utf8mb4_general_ci NOT NULL DEFAULT 'none',
+    correctfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    correctfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    incorrectfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    incorrectfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    partiallycorrectfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    partiallycorrectfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    shownumcorrect TINYINT(2) NOT NULL DEFAULT 0,
+CONSTRAINT  PRIMARY KEY (id)
+, UNIQUE KEY mdl_qtypordeopti_que2_uix (questionid)
+)
+ ENGINE = InnoDB
+ DEFAULT COLLATE = utf8mb4_general_ci ROW_FORMAT=Compressed
+ COMMENT='Options for ordering questions'
+Error code: ddlexecuteerror
+* line 500 of /lib/dml/moodle_database.php: ddl_change_structure_exception thrown
+* line 293 of /lib/dml/moodle_read_slave_trait.php: call to moodle_database->query_end()
+* line 1223 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->query_end()
+* line 77 of /lib/ddl/database_manager.php: call to mysqli_native_moodle_database->change_database_structure()
+* line 427 of /lib/ddl/database_manager.php: call to database_manager->execute_sql_arr()
+* line 372 of /lib/ddl/database_manager.php: call to database_manager->install_from_xmldb_structure()
+* line 723 of /lib/upgradelib.php: call to database_manager->install_from_xmldb_file()
+* line 1931 of /lib/upgradelib.php: call to upgrade_plugins()
+* line 726 of /admin/index.php: call to upgrade_noncore()
+
+[02-Aug-2024 18:11:16 America/Argentina/Cordoba] Default exception handler: DDL sql execution error Debug: Table 'mdl_qtype_ordering_options' already exists
+CREATE TABLE mdl_qtype_ordering_options (
+    id BIGINT(10) NOT NULL auto_increment,
+    questionid BIGINT(10) NOT NULL DEFAULT 0,
+    layouttype TINYINT(2) NOT NULL DEFAULT 0,
+    selecttype TINYINT(2) NOT NULL DEFAULT 0,
+    selectcount SMALLINT(4) NOT NULL DEFAULT 2,
+    gradingtype TINYINT(2) NOT NULL DEFAULT 0,
+    showgrading TINYINT(2) NOT NULL DEFAULT 0,
+    numberingstyle VARCHAR(10) COLLATE utf8mb4_general_ci NOT NULL DEFAULT 'none',
+    correctfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    correctfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    incorrectfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    incorrectfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    partiallycorrectfeedback LONGTEXT COLLATE utf8mb4_general_ci,
+    partiallycorrectfeedbackformat TINYINT(2) NOT NULL DEFAULT 0,
+    shownumcorrect TINYINT(2) NOT NULL DEFAULT 0,
+CONSTRAINT  PRIMARY KEY (id)
+, UNIQUE KEY mdl_qtypordeopti_que2_uix (questionid)
+)
+ ENGINE = InnoDB
+ DEFAULT COLLATE = utf8mb4_general_ci ROW_FORMAT=Compressed
+ COMMENT='Options for ordering questions'
+Error code: ddlexecuteerror
+* line 500 of /lib/dml/moodle_database.php: ddl_change_structure_exception thrown
+* line 293 of /lib/dml/moodle_read_slave_trait.php: call to moodle_database->query_end()
+* line 1223 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->query_end()
+* line 77 of /lib/ddl/database_manager.php: call to mysqli_native_moodle_database->change_database_structure()
+* line 427 of /lib/ddl/database_manager.php: call to database_manager->execute_sql_arr()
+* line 372 of /lib/ddl/database_manager.php: call to database_manager->install_from_xmldb_structure()
+* line 723 of /lib/upgradelib.php: call to database_manager->install_from_xmldb_file()
+* line 1931 of /lib/upgradelib.php: call to upgrade_plugins()
+* line 726 of /admin/index.php: call to upgrade_noncore()
+
+[08-Sep-2024 00:37:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[08-Sep-2024 01:52:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[08-Sep-2024 19:34:35 America/Argentina/Cordoba] Default exception handler: Excepción - Object of class stdClass could not be converted to string Debug: 
+Error code: generalexceptionmessage
+* line 5787 of /lib/moodlelib.php: Error thrown
+* line 96 of /admin/testoutgoingmailconf.php: call to email_to_user()
+
+[08-Sep-2024 23:39:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[08-Sep-2024 23:40:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[08-Sep-2024 23:41:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[08-Sep-2024 23:42:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234
+[09-Sep-2024 14:09:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_param() in /home4/app3ecounrcedu/public_html/lib/weblib.php:234
+Stack trace:
+#0 /home4/app3ecounrcedu/public_html/lib/setuplib.php(660): get_local_referer(false)
+#1 /home4/app3ecounrcedu/public_html/lib/setuplib.php(439): get_exception_info(Object(ParseError))
+#2 [internal function]: default_exception_handler(Object(ParseError))
+#3 {main}
+  thrown in /home4/app3ecounrcedu/public_html/lib/weblib.php on line 234

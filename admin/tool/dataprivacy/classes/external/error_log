@@ -1,0 +1,68 @@
+[21-Aug-2024 14:06:43 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_access_information.php:34
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_access_information.php on line 34
+[21-Aug-2024 14:06:47 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_data_requests.php:38
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_data_requests.php on line 38
+[21-Aug-2024 14:06:53 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/submit_selected_courses_form.php:41
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/submit_selected_courses_form.php on line 41
+[21-Aug-2024 14:07:55 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_access_information.php:34
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_access_information.php on line 34
+[21-Aug-2024 14:08:13 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/create_data_request.php:36
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/create_data_request.php on line 36
+[21-Aug-2024 14:08:14 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_data_requests.php:38
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_data_requests.php on line 38
+[21-Aug-2024 14:08:18 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/submit_selected_courses_form.php:41
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/submit_selected_courses_form.php on line 41
+[21-Aug-2024 14:08:42 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/submit_selected_courses_form.php:41
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/submit_selected_courses_form.php on line 41
+[21-Aug-2024 14:08:54 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_data_requests.php:38
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_data_requests.php on line 38
+[21-Aug-2024 14:09:00 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_access_information.php:34
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_access_information.php on line 34
+[21-Aug-2024 14:09:07 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/submit_selected_courses_form.php:41
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/submit_selected_courses_form.php on line 41
+[21-Aug-2024 14:09:18 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_access_information.php:34
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_access_information.php on line 34
+[21-Aug-2024 14:09:23 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_data_requests.php:38
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_data_requests.php on line 38
+[21-Aug-2024 14:09:33 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_data_requests.php:38
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/get_data_requests.php on line 38
+[21-Aug-2024 14:09:34 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/submit_selected_courses_form.php:41
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/submit_selected_courses_form.php on line 41
+[21-Aug-2024 14:09:46 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/create_data_request.php:36
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/create_data_request.php on line 36
+[21-Aug-2024 14:10:17 UTC] PHP Fatal error:  Uncaught Error: Class "core_external\external_api" not found in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/create_data_request.php:36
+Stack trace:
+#0 {main}
+  thrown in /home4/app3ecounrcedu/public_html/admin/tool/dataprivacy/classes/external/create_data_request.php on line 36

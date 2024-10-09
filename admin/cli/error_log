@@ -1,0 +1,1352 @@
+[02-Aug-2024 21:03:02 UTC] Resetting core_component cache after core upgrade to version 2024042201.08
+[08-Sep-2024 19:53:14 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 19:55:15 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:17:12 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:18:04 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:19:13 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:20:17 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:23:14 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:24:18 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:24:42 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:26:43 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:30:44 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:31:15 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:32:19 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:35:17 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:36:05 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:38:07 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:39:05 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[08-Sep-2024 20:58:23 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:51:02 UTC] PHP Warning:  require_once(/home4/app3ecounrcedu/public_html/lib/moodlelib.php): Failed to open stream: No such file or directory in /home4/app3ecounrcedu/public_html/lib/setup.php on line 643
+[09-Sep-2024 10:27:28 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 10:29:29 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 10:33:30 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 10:40:24 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 10:41:34 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 10:42:06 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 10:43:09 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 10:44:07 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 10:47:10 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 10:48:08 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 11:49:00 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 11:51:04 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 11:54:09 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 11:55:18 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 11:56:10 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:00:12 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:03:06 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:03:19 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:05:14 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:08:13 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:09:14 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:10:49 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:11:32 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:12:27 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:13:33 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:16:28 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:17:34 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:18:51 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:19:07 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:20:14 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:21:19 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:24:14 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:24:29 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(807cffa7c4e57010fe999b9de039309fab96dcae);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:25:25 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:25:35 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:33:26 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:34:52 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:40:30 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:41:36 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:42:42 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:44:43 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:48:44 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:49:27 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:52:15 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:56:15 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:56:18 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:56:45 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:58:19 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 12:59:26 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:01:28 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:02:17 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:03:07 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:04:18 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:05:29 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:06:53 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:08:19 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:11:08 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(807cffa7c4e57010fe999b9de039309fab96dcae);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:12:31 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:12:47 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:13:30 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:14:06 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:16:16 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:17:22 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:19:10 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:20:14 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:21:28 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:22:15 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:23:12 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:26:16 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:27:09 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:29:31 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+
+[09-Sep-2024 13:31:13 America/Argentina/Cordoba] Default exception handler: Detectado un error de codificación, debe ser corregido por un programador: A lock was created but not released at:
+[dirroot]/lib/classes/cron.php on line 256
+
+ Code should look like:
+
+ $factory = \core\lock\lock_config::get_lock_factory('type');
+ $lock = $factory-&gt;get_lock(1b57ab229374485bffc9177be72ec551b4fa69a5);
+ $lock-&gt;release();  // Locks must ALWAYS be released like this.
+
+ Debug: 
+Error code: codingerror
+* line 115 of /lib/classes/lock/lock.php: coding_exception thrown
+* line 128 of /lib/classes/cron.php: call to core\lock\lock->__destruct()
+* line 186 of /admin/cli/cron.php: call to core\cron::run_main_process()
+

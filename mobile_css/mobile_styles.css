@@ -1,0 +1,21 @@
+/* Cambia el color de fondo */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Cambia el color de los enlaces */
+a {
+    color: #003366;
+}
+
+/* Personaliza el color de los botones */
+button, .btn {
+    background-color: #003366;
+    color: #ffffff;
+}
+
+/* Personaliza el encabezado */
+header {
+    background-color: #003366;
+    color: #ffffff;
+}
