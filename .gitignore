@@ -1,1 +1,40 @@
+# Ignorar configuración sensible y archivos de datos
+config.php
+moodledata/
+moodledata/cache/
+moodledata/localcache/
+moodledata/tplcache/
+moodledata/sessions/
+moodledata/temp/
+moodledata/trashdir/
+
+# Ignorar archivos de logs y temporales
+*.log
+*.tmp
+error_log
+tmp/
+logs/
+
+# Ignorar archivos específicos de desarrollo y pruebas
+behat.yml
+behat.yml.dist
+phpunit.xml
+phpunit.xml.dist
+composer.lock
+npm-debug.log*
+node_modules/
+coverage/
 .DS_Store
+
+# Ignorar archivos específicos que identificamos como no necesarios
+editmode.php
+githash.php
+npm-shrinkwrap.json
+php.ini
+
+# Ignorar archivos de sistema del editor y del sistema operativo
+.idea/
+*.swp
+*.swo
+.vscode/
+Thumbs.db
