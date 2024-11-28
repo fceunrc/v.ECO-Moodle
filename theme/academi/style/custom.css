@@ -1,0 +1,588 @@
+/* Custom CSS Settings */
+
+/*--------------------------------------------------------------*/
+
+/*Sitewide styles*/
+/*-----------------------*/
+
+#region-main {
+    min-height: 150px;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/theme/academi/fonts/nunito-medium/Nunito-Medium.eot') format('embedded-opentype'),
+        url('/theme/academi/fonts/nunito-medium/Nunito-Medium.woff') format('woff'),
+        url('/theme/academi/fonts/nunito-medium/Nunito-Medium.woff2') format('woff2'),
+        url('/theme/academi/fonts/nunito-medium/Nunito-Medium.ttf') format('truetype'),
+        url('/theme/academi/fonts/nunito-medium/Nunito-Medium.otf') format('opentype');
+}
+
+.body { 
+    font-family: 'Nunito' !important;
+}
+
+/* Buttons' rounded corners*/
+.btn.btn-primary {
+    border-radius: 10px;
+    font-family: 'Nunito' !important;
+}
+
+.btn.btn-secondary {
+    border-radius: 10px;
+    font-family: 'Nunito' !important;
+}
+
+/*Dropdown buttons font*/
+.dropdown-toggle.btn.btn-outline-secondary {
+    font-family: 'Nunito';
+}
+
+/*Links throughout the ui*/
+a {
+    border-radius: 10px !important;
+}
+
+.nav-link {
+    border-width: 0px !important;
+}
+
+/*-----------------------*/
+/*End of sitewide styles*/
+
+/*--------------------------------------------------------------*/
+
+/*Login page styles*/
+/*-----------------------*/
+
+.login-container {
+    margin-bottom: 0;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+#logoimage {
+    max-height: 68px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+#login {
+    display: none;
+}
+
+/*MS login option*/
+.login-container h2.login-heading {
+    font-size: 1.03rem;
+    margin-bottom: 1.0rem;
+    color: #0e62ac;
+    text-align: center;
+}
+
+/*Teams button*/
+.login-identityproviders .btn.login-identityprovider-btn.btn-block:first-of-type {
+    background-color: #d2c6eb6b;
+    color: #000000;
+    border: 2px solid #a186d6;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    transition: transform 0.4s;
+    font-size: medium;
+}
+
+.login-identityproviders .btn.login-identityprovider-btn.btn-block:first-of-type:hover {
+    transform: scale(1.05);
+}
+
+/*Google button*/
+.login-identityproviders .btn.login-identityprovider-btn.btn-block:nth-of-type(2) {
+    background-color: rgba(134, 195, 250, 0.7);
+    color: #000000;
+    border: 1px solid #0e62ac;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+/*Guest button*/
+#loginguestbtn {
+    background-color: rgba(134, 195, 250, 0.7);
+    color: #000000;
+    border: 1px solid #0e62ac;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*Cookies section on login box*/
+.login-wrapper .d-flex {
+    display: none !important;
+}
+
+/* Media queries para dispositivos más pequeños */
+@media (max-width: 768px) {
+    .login-container {
+        padding: 20px;
+    }
+
+    .login-identityproviders .btn.login-identityprovider-btn.btn-block,
+    #loginguestbtn {
+        font-size: 0.9rem; /* Ajuste del tamaño de fuente */
+        padding: 10px; /* Reduce el padding para una mejor visualización */
+    }
+
+    #logoimage {
+        margin-bottom: 15px; /* Reduce el espacio en dispositivos más pequeños */
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 20px;
+    }
+
+    .login-identityproviders .btn.login-identityprovider-btn.btn-block,
+    #loginguestbtn {
+        font-size: 0.8rem; /* Ajuste adicional del tamaño de fuente */
+        padding: 8px; /* Reduce más el padding */
+    }
+
+    #logoimage {
+        max-height: 50px; /* Reduce el tamaño del logo */
+    }
+}
+
+/*-----------------------*/
+/*End of login page styles*/
+
+/*--------------------------------------------------------------*/
+
+/*Header styles*/
+/*------------------------*/
+
+/*Header height*/
+#header {
+    height: 80px;
+}
+
+/*Header sideways padding*/
+@media (min-width:992px) {
+    #header.fixed-top {
+        padding: 0 75px;
+    }
+}
+
+/*White header when searching*/
+#searchform-navbar {
+    height: 75px;
+}
+
+/*vECO logo being shown on left drawer (mobile)*/
+.logo.py-1.h-100 {
+    display: none;
+}
+
+/*Styles so that the drawer can be shown properly (mobile)*/
+.drawerheader {
+    margin-top: 10px;
+}
+
+/*vECO header logo*/
+nav.navbar .logo img {
+    max-height: 37px;
+}
+
+/*vECO header logo right margin*/
+.navbar-brand.has-logo {
+    margin-right: 30px;
+}
+
+/*Margin added to all the elements in the header*/
+#header .nav-link {
+    margin-left: 10px;
+}
+
+/*Search and notification margin (between them)*/
+#header.navbar.fixed-top #usernavigation .nav-link {
+    padding: 0px;
+    border: 0;
+}
+
+/*Notifiaction counter over bell*/
+.count-container {
+    margin-right: -5px;
+    color: #fff;
+    background: #ca3120;
+}
+
+/*Notification page main container*/
+.notification-area {
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/*Message bubble on header*/
+.icon.fa.fa-comment-o.fa-fw {
+    display: none;
+}
+
+/*Profile pic dropdown menu*/
+#user-action-menu {
+    border-radius: 10px !important;
+    padding: 5px;
+}
+
+/*Editing switch*/
+.custom-control.custom-switch {
+    margin-top: 1px;
+}
+
+/*Space between login button when visiting as guest*/
+.login.pl-2 a {
+    margin-left: 15px;
+}
+
+/*------------------------*/
+/*End of header styles*/
+
+/*--------------------------------------------------------------*/
+
+/*Homepage slider styles*/
+/*-----------------------*/
+
+/*Black translucent box*/
+.heading-content {
+    border-radius: 10px;
+}
+
+.homepage-carousel .controls a.carousel-control::before {
+    margin-top: 2px;
+}
+
+/*-----------------------*/
+/*End of homepage slider styles*/
+
+/*Site features styles*/
+/*-----------------------*/
+
+#sitefeatures {
+    padding-top: 40px;  /*cambiar a 0 cuando hayan cursos promovidos*/
+}
+
+/*-----------------------*/
+/*End of site features styles*/
+
+/*--------------------------------------------------------------*/
+
+/*Marketing spot styles*/
+/*-----------------------*/
+
+/*Text below the "About us" title*/
+.info-head p {
+    font-size: 18px;
+}
+
+/*Alignment of elements inside the mktn spot*/
+.marketing-spot .row {
+    align-items: center;
+}
+
+/*-----------------------*/
+/*End of marketing spot styles*/
+
+/*--------------------------------------------------------------*/
+
+/*Announcements styles*/
+/*-----------------------*/
+
+/*Forum post card*/
+.forumpost {
+    border-radius: 10px;
+}
+
+/*Margin between announcement's title and author*/
+.mb-3 {
+    margin-top: 5px;
+}
+
+/*Announcement response input box */
+.form-control {
+    margin-bottom: 10px;
+    font-family: 'Nunito';
+}
+
+/*"Responder en privado" checkbox*/
+.form-check.form-check-inline {
+    margin-left: 20px;
+}
+
+/*Move discussion to... and Move button*/
+#forummenu {
+    margin-top: -5px;
+}
+
+/*Settings button*/
+.dropdown-toggle.btn.btn-outline-secondary {
+    margin-top: -5px;
+    border-radius: 10px;
+}
+
+/*announcement card*/
+.d-flex.border.p-2.mb-2.forumpost.focus-target.firstpost.starter {
+    margin-top: 30px;
+}
+
+/*-----------------------*/
+/*End of announcements styles*/
+
+/*--------------------------------------------------------------*/
+
+/*Course categories styles*/
+/*-----------------------*/
+
+/*Collapse/expand button*/
+#frontpage-category-names .collapsible-actions {
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+
+/*Categories*/
+#frontpage-category-names .info {
+    background-color: #0D62AD !important;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+#frontpage-category-names .info:hover {
+    transform: scale(1.05);
+}
+
+#frontpage-category-names .info a {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+}
+
+/*Each category and its children on a new line*/
+.category.loaded.with_children {
+    flex-basis: 100%;
+}
+
+/*When collapsed, arrange the categories to save up space*/
+.category.loaded.with_children.collapsed {
+    flex-basis: auto;
+    display: inline-block;
+}
+
+/*Subcategories*/
+.subcategories {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+}
+
+#frontpage-category-names .content .subcategories .category.notloaded .info {
+    background-color: #e0ebff !important;
+    width: 100%; /* Ocupar todo el ancho del contenedor */
+    transition: transform 0.3s;
+}
+
+#frontpage-category-names .content .subcategories .category.notloaded .info:hover {
+    transform: scale(1.1);
+}
+
+#frontpage-category-names .content .subcategories .category.notloaded .info a {
+    color: #0D62AD !important;
+    text-decoration: none;
+}
+
+/*Inside each subsection*/
+.courses.category-browse.category-browse-34 .info {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.courses.category-browse.category-browse-34 .info a {
+    color: #0D62AD !important;
+}
+
+/*Padlock icon next to course name*/
+.icon.fa.fa-unlock-alt.fa-fw {
+    margin-left: -10px;
+    margin-bottom: 13px;
+}
+
+/*-----------------------*/
+/*End of course categories styles*/
+
+/*--------------------------------------------------------------*/
+
+/*My courses page styles*/
+/*-----------------------*/
+
+/*Course image when having +3 courses*/
+.mw-100.w-100 {
+    margin-left: 40px;
+}
+
+#displaydropdown,
+#sortingdropdown,
+#groupingdropdown {
+    margin-top: 0px;
+}
+
+/*-----------------------*/
+/*End of my courses page styles*/
+
+/*--------------------------------------------------------------*/
+
+/*Profile page styles*/
+/*-----------------------*/
+
+.page-header-image {
+    margin-right: 20px;
+}
+
+/*Message button*/
+#message-user-button {
+    display: none;
+}
+
+/*-----------------------*/
+/*End of profile page styles*/
+
+/*--------------------------------------------------------------*/
+
+/*Course page styles*/
+/*-----------------------*/
+
+/*course name alignment with sections and li items*/
+.h2.mb-0 {
+    margin-left: 0px !important; 
+}
+
+/*activity name and breadcrumbs*/
+.page-context-header.d-flex.align-items-center.mb-2 {
+    margin-left: 0px;
+}
+
+/*Course index buttons*/
+.courseindex-link.text-truncate {
+    width: 100%;
+    height: 100%;
+}
+
+/*Course index left tab*/
+.drawer.drawer-left {
+    width: 230px;
+}
+
+/*Info icon inside a course's index*/
+#courseindexdrawercontrols {
+    margin-top: 10px;
+}
+
+/*Block's right tab*/
+.drawer.drawer-right {
+    width: 345px;
+    max-width: 345px;
+}
+
+/*Embedded window styles*/
+#contentframe, #resourceobject {
+    height: 733px !important;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #0e62ac;
+}
+
+/*Activity/resourse description (edit mode)*/
+#fitem_id_introeditor {
+    display: none;
+}
+
+.col-md-9.checkbox {
+    display: none;
+}
+
+/*-----------------------*/
+/*End of course page styles*/
+
+/*--------------------------------------------------------------*/
+
+/*Blocks styles*/
+/*------------------------*/
+
+/*Block's tab close button*/
+.btn.icon-no-margin {
+    margin-top: 10px;
+}
+
+/*Calendar block styles*/
+.arrow_text {
+    display: none;
+}
+
+/*Dashboard's blocks styles*/
+.block {
+    border-radius: 10px;
+}
+
+/*Block's corners*/
+.card-text.content.mt-3 {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*"All courses" filter on calendar*/
+#calendar-course-filter-1 {
+    font-family: 'Nunito';
+}
+/*------------------------*/
+/*End of blocks styles*/
+
+/*--------------------------------------------------------------*/
+
+/*Footer styles*/
+/*------------------------*/
+
+/*Vertical alignment for the footer sections*/
+#footer .footer-main .infoarea {
+    padding-top: 35px;
+    text-align: -webkit-center;
+}
+
+#footer .footer-main .contact-info {
+    padding-top: 45px;
+}
+
+#footer .footer-main .social-media {
+    padding-top: 55px;
+}
+
+/*Help button styles*/
+.btn.btn-icon.bg-secondary.icon-no-margin.btn-footer-popover {
+    display: none;
+}
+
+.footer-section.p-3.border-bottom {
+    display: none;
+}
+
+.footer-section.p-3 {
+    display: none;
+}
+
+/*Copyright footer color*/
+#footer .footer-bottom {
+    background: #222432;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+}
+
+/*------------------------*/
+/*End of footer styles*/
